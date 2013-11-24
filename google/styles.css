@@ -1,3 +1,33 @@
 body {
-  /* rules go here */
+  font-family: arial, sans serif;
+}
+
+
+.navbar {
+  text-align: right;
+  list-style-type: none;
+  float: right;
+}
+
+.li {
+
+  display: inline;
+  padding-left: 15px;
+}
+
+.center {
+  top:50%;
+  left:35%;
+  position:absolute;
+}
+.searchbox {
+  top:-50%;
+  height: 27px;
+  width: 541px;
+  position:relative;
+}
+.button {
+  font-size: 15px;
+  font-family: arial, sans serif;
+  position:relative;
 }
